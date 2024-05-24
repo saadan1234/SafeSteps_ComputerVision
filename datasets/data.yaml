@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['-', 'Crosswalk - v1 2023-07-27 1-43pm', 'object']
+
+roboflow:
+  workspace: school-sacst
+  project: finalproject3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-sacst/finalproject3/dataset/1
