@@ -6,13 +6,15 @@ SafeSteps is a computer vision system designed to improve pedestrian safety at c
 
 ## Key Features
 
-+ _Accurate Pedestrian Detection:_ Employs YOLO (You Only Look Once) models for real-time identification of pedestrians and crosswalks within a video stream.
++ **_Accurate Pedestrian Detection:_** Employs YOLOv8 (You Only Look Once) models for real-time identification of pedestrians and crosswalks within a video stream.
 
-+ _Dynamic Traffic Light Control:_ Calculates pedestrian distances from both crosswalk endpoints to determine their intentions (approaching or leaving).
++ **_Dynamic Traffic Light Control:_** Calculates pedestrian distances from both crosswalk endpoints to determine their intentions (approaching or leaving).
 
-+ _Adaptive Signal Management:_ Adjusts traffic light state (green to yellow to red) based on pedestrian proximity to the crosswalk, prioritizing pedestrian safety while maintaining traffic flow.
++ **_Adaptive Signal Management:_** Adjusts traffic light state (green to yellow to red) based on pedestrian proximity to the crosswalk, prioritizing pedestrian safety while maintaining traffic flow.
+  
++ **_Models:_** The project utilizes a custom-trained model using YOLOv8 on a public dataset available on Roboflow. The project uses another pre-trained YOLOv8 model to detect pedestrians.
 
-+ _Visual Representation_: Generates an output image that clearly depicts:
++ **_Visual Representation_:** Generates an output image that clearly depicts:
 
   1. Detected crosswalk and pedestrians
   
